@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>The Mountains</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Open+Sans" rel="stylesheet">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div id="wrapper" class="wrapper uk-offcanvas-content">
+  <canvas id="canvas"></canvas>
+
+  <div id="offcanvas-usage" uk-offcanvas>
+    <div class="uk-offcanvas-bar">
+
+      <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+      <h1 class="uk-heading-bullet">Options</h1>
+      <ul class="uk-list uk-list-divider">
+        <li>
+          <div id="controls__reset" class="offcanvas__item">Reset</div>
+        </li>
+        <li>
+          <div id="controls__mute" class="offcanvas__item">Mute <span class="switch"></span></div>
+        </li>
+        <li>
+          <div id="controls__rimlight" class="offcanvas__item">Rim light <span class="switch"></span></div>
+        </li>
+      </ul>
+      <h1 class="uk-heading-bullet">Animations</h1>
+      <ul class="uk-list uk-list-divider">
+        <li>
+          <div id="controls__sinX" class="offcanvas__item">SinX <span class="switch"></span></div>
+        </li>
+        <li>
+          <div id="controls__sinZ" class="offcanvas__item">SinZ <span class="switch"></span></div>
+        </li>
+        <li>
+          <div id="controls__sinXZ" class="offcanvas__item">SinXZ <span class="switch"></span></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="loader" class="loader">
+    <div class="loader__content">
+      <p class="loader__title">The Mountains</p>
+      <p class="loader__description">An interactive experiment with light and relief.<br>Left click: vertices<br>Right light: light</p>
+    </div>
+  </div>
+
+  <div class="controls">
+    <a href="#offcanvas-usage" uk-toggle class="controls__open"></a>
+  </div>
+  
+  <div id="note" class="note">Left click: vertices | Right click: light<br><a href="https://codepen.io/Thibka/full/oqdGyZ" target="_blank">Go full screen</a></div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js'></script>
+<script src='js/eelwov.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/91/three.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
